@@ -5,7 +5,7 @@ import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date("2026-10-06");
-  const staticRoutes = ["", "/about", "/flat-out"].map((path) => ({
+  const staticRoutes = ["", "/about", "/flat-out", "/flatvoice/privacy"].map((path) => ({
     url: `${site.url}${path}`,
     lastModified: now,
   }));

@@ -107,6 +107,9 @@ export default function FlatVoicePage() {
           <li>
             <Link href="/flat-out">/flat-out</Link>
           </li>
+          <li>
+            <Link href="/flatvoice/privacy">/flatvoice/privacy</Link>
+          </li>
         </ul>
       </nav>
     </PageShell>
