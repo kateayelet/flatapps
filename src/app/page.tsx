@@ -1,4 +1,5 @@
 import { AppCard } from "@/components/AppCard";
+import { FamilyMark } from "@/components/FamilyMark";
 import { Laws } from "@/components/Laws";
 import { PageShell } from "@/components/PageShell";
 import { TitleBlock } from "@/components/TitleBlock";
@@ -17,6 +18,9 @@ export default function HomePage() {
       />
 
       <section className="hero rise">
+        <div className="hero-mark">
+          <FamilyMark size={88} />
+        </div>
         <p className="kicker">Architectural flatness</p>
         <h1>{site.core}</h1>
         <p className="hero-sub">{site.tool}</p>

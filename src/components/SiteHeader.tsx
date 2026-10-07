@@ -11,7 +11,7 @@ export function SiteHeader({ currentPath }: SiteHeaderProps) {
     <header className="site-header">
       <div className="header-inner">
         <Link href="/" className="brand" aria-label={`${site.name} home`}>
-          <FamilyMark size={36} />
+          <FamilyMark size={48} />
           <span className="brand-text">
             <span className="brand-name">{site.name}</span>
             <span className="brand-domain">{site.domain}</span>

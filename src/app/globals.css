@@ -39,9 +39,7 @@ body {
 
 body {
   margin: 0;
-  background:
-    radial-gradient(1200px 480px at 8% -10%, rgb(16 30 58 / 0.05), transparent 55%),
-    linear-gradient(180deg, #f7f3ee 0%, var(--parchment) 18%, var(--parchment) 100%);
+  background: var(--parchment);
   color: var(--ink);
   font-family: var(--font-geist-sans), "SF Pro Text", "Segoe UI", sans-serif;
   font-feature-settings: "ss01" 1, "kern" 1;
@@ -292,6 +290,15 @@ code,
   font-weight: 520;
   letter-spacing: -0.045em;
   line-height: 1.05;
+}
+
+.hero-mark {
+  margin-bottom: 1.15rem;
+}
+
+.hero-mark svg {
+  display: block;
+  border-radius: 22%;
 }
 
 .hero h1 {
