@@ -1,6 +1,7 @@
 import { ArtifactList } from "@/components/ArtifactList";
 import { PageShell } from "@/components/PageShell";
 import { StorePlaceholder } from "@/components/StorePlaceholder";
+import { SupportContact } from "@/components/SupportContact";
 import { TitleBlock } from "@/components/TitleBlock";
 import { getApp } from "@/lib/apps";
 import type { Metadata } from "next";
@@ -94,6 +95,8 @@ export default function FlatVoicePage() {
         </div>
         <StorePlaceholder appName={app.name} />
       </section>
+
+      <SupportContact appName={app.name} privacyHref="/flatvoice/privacy" />
 
       <nav className="section" aria-label="Other Flat apps">
         <p className="kicker">Also in the folder</p>
