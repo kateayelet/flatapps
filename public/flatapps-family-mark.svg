@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Flatapps family mark A — Trio tiles: three equal rounded-square app tiles in a calm horizontal row; middle sparse cyan fill — three apps, one family -->
+  <rect width="1024" height="1024" rx="224" fill="#101E3A"/>
+  <!-- Three equal squarish app tiles (~1:1), calm gap -->
+  <rect x="148" y="388" width="220" height="248" rx="52" fill="#F2EDE6"/>
+  <rect x="402" y="388" width="220" height="248" rx="52" fill="#00E5CC"/>
+  <rect x="656" y="388" width="220" height="248" rx="52" fill="#F2EDE6"/>
+</svg>
